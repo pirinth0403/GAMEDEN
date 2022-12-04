@@ -24,13 +24,23 @@
 /* Colors */
 :root {
 	--color-default: #222222;
-	--color-primary: #008374;
+	--color-primary: #050505;
 	--color-secondary: #f85a40;
 }
 
 /* Smooth scroll behavior */
 :root {
 	scroll-behavior: smooth;
+}
+
+/* main banner  */
+.main-banner {
+	background-color: #af15ce;
+	background-position: center center;
+	background-size: cover;
+	min-height: 380px;
+	/* border-radius: 20px; */
+	padding: 80px 60px;
 }
 
 /*--------------------------------------------------------------
@@ -163,7 +173,7 @@ section {
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
-.scroll-top {
+/* .scroll-top {
 	position: fixed;
 	visibility: hidden;
 	opacity: 0;
@@ -192,7 +202,7 @@ section {
 	visibility: visible;
 	opacity: 1;
 	bottom: 15px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Preloader
@@ -848,7 +858,10 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	background: linear-gradient(
+			rgba(253, 253, 253, 0),
+			rgba(255, 255, 255, 0)
+		),
 		url('../img/cta-bg.jpg') center center;
 	background-size: cover;
 	padding: 100px 60px;
@@ -1765,16 +1778,16 @@ section {
 	height: 100%;
 	padding: 20px;
 	border-radius: 10px 0 0 10px;
-	box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 2px 25px rgb(247, 244, 244);
 }
 
 .contact .info-item {
 	width: 100%;
-	background-color: #009282;
+	background-color: #16a892;
 	margin-bottom: 20px;
 	padding: 20px;
 	border-radius: 10px;
-	color: #fff;
+	color: rgb(207, 36, 36);
 }
 
 .contact .info-item:last-child {
@@ -2348,7 +2361,7 @@ section {
 /*--------------------------------------------------------------
 # Blog Sidebar
 --------------------------------------------------------------*/
-.blog .sidebar {
+/* .blog .sidebar {
 	padding: 30px;
 	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
@@ -2500,12 +2513,12 @@ section {
 	padding-left: 5px;
 	color: rgba(85, 85, 85, 0.8);
 	font-size: 14px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Blog Comments
 --------------------------------------------------------------*/
-.blog .comments {
+/* .blog .comments {
 	margin-top: 30px;
 }
 
@@ -2612,7 +2625,7 @@ section {
 
 .blog .comments .reply-form .btn-primary:hover {
 	background-color: rgba(248, 90, 64, 0.8);
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
@@ -2638,7 +2651,7 @@ section {
 	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	color: #fff;
+	color: rgb(243, 9, 239);
 	font-family: var(--font-primary);
 }
 
